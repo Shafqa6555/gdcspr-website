@@ -1,0 +1,776 @@
+<div class="page" id="notes-subjects-page">
+     <a href="#" class="back-btn" data-page="notes-batch"><i class="fas fa-arrow-left"></i> Back to Batches</a>
+    <h2 class="section-title" id="notes-subjects-title">Select Subject</h2>
+    <div class="subject-container">
+        <div class="subject-grid">
+            <div class="subject-card">
+                <h4>Economics</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>History</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Political Science</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Education</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Sociology</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Urdu</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>English</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Kashmiri</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Zoology</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Botany</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Geography</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Physics</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Chemistry</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Mathematics</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Statistics</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Environmental Science</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Earth Science</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Biochemistry</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Commerce</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Business Administration (BBA)</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Computer Applications (BCA)</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            <div class="subject-card">
+                <h4>Travel & Tourism Management</h4>
+                <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+            </div>
+            </div>
+    </div>
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDC Sopore - Student Help Portal</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS Styles */
+        :root {
+            --primary: #ff0084;
+            --secondary: #a300ff;
+            --dark: #0b0b0d;
+            --light: #f0f0f0;
+            --gray: #cccccc;
+            --card-bg: rgba(30, 30, 40, 0.8);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--dark);
+            color: white;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: rgba(0, 0, 0, 0.9);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(255, 0, 132, 0.3);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        nav .title {
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav h1 {
+            font-size: 1.6rem;
+            color: var(--primary);
+            letter-spacing: 0.5px;
+        }
+
+        nav small {
+            font-size: 0.75rem;
+            color: var(--gray);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-menu a {
+            color: var(--gray);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 8px 15px;
+            border-radius: 30px;
+        }
+
+        .nav-menu a:hover, .nav-menu a.active {
+            background: rgba(255, 0, 132, 0.2);
+            color: white;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Main container for page switching */
+        .main-container {
+            display: flex;
+            min-height: calc(100vh - 130px);
+        }
+
+        /* Page Display Logic */
+        .page {
+            display: none;
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding-top: 10px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .hero-text {
+            flex: 1;
+            min-width: 280px;
+            animation: fadeInLeft 1s ease-out;
+        }
+
+        .hero-text h2 {
+            font-size: 2.8rem;
+            line-height: 1.2;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .hero-text p {
+            font-size: 1.1rem;
+            color: var(--gray);
+            max-width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(163, 0, 255, 0.4);
+            border: none;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .btn.secondary {
+            background: transparent;
+            border: 2px solid var(--primary);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(255, 0, 132, 0.6);
+        }
+
+        .hero-image {
+            flex: 1;
+            min-width: 280px;
+            text-align: center;
+            animation: fadeInRight 1s ease-out;
+            position: relative;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(255, 0, 132, 0.3);
+            transition: transform 0.5s;
+        }
+
+        .hero-image:hover img {
+            transform: scale(1.03);
+        }
+
+        /* Quick Access */
+        .quick-access {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 15px 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary) transparent;
+        }
+
+        .quick-access::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .quick-access::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 5px;
+        }
+
+        .quick-btn {
+            flex: 0 0 auto;
+            padding: 18px 22px;
+            background: linear-gradient(135deg, rgba(255,0,132,0.9), rgba(163,0,255,0.9));
+            color: white;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(163, 0, 255, 0.4);
+            transition: var(--transition);
+            min-width: 180px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255,255,255,0.1);
+            cursor: pointer;
+        }
+
+        .quick-btn i {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .quick-btn small {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+
+        .quick-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(255, 0, 132, 0.6);
+        }
+
+        /* Selection Cards */
+        .selection-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .selection-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 30px 20px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(255,255,255,0.1);
+            cursor: pointer;
+        }
+
+        .selection-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(255, 0, 132, 0.3);
+            border-color: var(--primary);
+        }
+
+        .selection-card i {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .selection-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Batch Selection */
+        .batch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .batch-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(255,255,255,0.1);
+            cursor: pointer;
+        }
+
+        .batch-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            box-shadow: 0 5px 15px rgba(255, 0, 132, 0.3);
+        }
+
+        /* Resource Items (Papers List) */
+        .resource-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .resource-item {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: var(--transition);
+        }
+
+        .resource-item:hover {
+            transform: translateX(5px);
+            border-color: var(--primary);
+        }
+
+        .resource-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .resource-title {
+            font-size: 1.2rem;
+            color: var(--primary);
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+        
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(255, 0, 132, 0.4);
+        }
+        
+        /* Back button */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 20px;
+            color: var(--gray);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .back-btn:hover {
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: rgba(0,0,0,0.9);
+            border-top: 1px solid rgba(255, 0, 132, 0.2);
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        /* Animations */
+        @keyframes fadeInLeft {
+            from {opacity: 0; transform: translateX(-50px);}
+            to {opacity: 1; transform: translateX(0);}
+        }
+        @keyframes fadeInRight {
+            from {opacity: 0; transform: translateX(50px);}
+            to {opacity: 1; transform: translateX(0);}
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                padding: 15px;
+            }
+            
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                right: 0;
+                background: rgba(0,0,0,0.95);
+                flex-direction: column;
+                padding: 20px;
+                gap: 15px;
+                border-bottom: 2px solid var(--primary);
+            }
+            
+            .nav-menu.active {
+                display: flex;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero {
+                padding: 30px 15px;
+                text-align: center;
+            }
+            
+            .hero-text {
+                margin-bottom: 40px;
+            }
+            
+            .hero-buttons {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo-container">
+            <div class="logo">GDC</div>
+            <div class="title">
+                <h1>GDC Sopore</h1>
+                <small>Founder: Shafqat Ahmad Bhatt</small>
+            </div>
+        </div>
+        
+        <div class="nav-menu" id="navMenu">
+            <a href="#" class="nav-link active" data-page="home"><i class="fas fa-home"></i> Home</a>
+            <a href="#" class="nav-link" data-page="notes"><i class="fas fa-book"></i> Notes</a>
+            <a href="#" class="nav-link" data-page="papers"><i class="fas fa-file-alt"></i> Papers</a>
+        </div>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="main-container">
+        <!-- Home Page -->
+        <div class="page active" id="home-page">
+            <section class="hero">
+                <div class="hero-text">
+                    <h2>Student Help Portal</h2>
+                    <p>Your one-stop portal for results, notes, date sheets, old papers, and academic resources. Completely ad-free experience for focused learning.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn" data-page="notes"><i class="fas fa-book-open"></i> Access Notes</a>
+                        <a href="#" class="btn secondary" data-page="papers"><i class="fas fa-file-alt"></i> Previous Papers</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200" alt="Campus View">
+                </div>
+            </section>
+
+            <h2 class="section-title">Quick Access</h2>
+            <div class="quick-access">
+                <a href="https://egov.uok.edu.in/results/" target="_blank" class="quick-btn"><i class="fas fa-chart-bar"></i> Results</a>
+                <a href="#" class="quick-btn" data-page="notes"><i class="fas fa-book"></i> Notes <small>1st to 6th Sem</small></a>
+                <a href="https://drive.google.com/drive/folders/1m8M22wkRW-3kwTDYG_Il9l6N-nZCpGN-?usp=drive_link" target="_blank" class="quick-btn"><i class="fas fa-calendar-alt"></i> Date Sheet</a>
+                <a href="#" class="quick-btn" data-page="papers"><i class="fas fa-file-alt"></i> Old Papers <small>1st to 6th Sem</small></a>
+                <a href="https://egov.uok.edu.in/Registration/" target="_blank" class="quick-btn"><i class="fas fa-user-graduate"></i> Academic Details</a>
+                <a href="https://www.kashmiruniversity.net/examination.aspx" target="_blank" class="quick-btn"><i class="fas fa-id-card"></i> Admit Cards</a>
+                <a href="https://egov.uok.edu.in/eservices/syllabus/prelogin/course.aspx?coursetype=UGP" target="_blank" class="quick-btn"><i class="fas fa-clipboard-list"></i> Syllabus</a>
+            </div>
+        </div>
+
+        <!-- Notes Section -->
+        <div class="page" id="notes-page">
+            <a href="#" class="back-btn" data-page="home"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <h2 class="section-title">Select Semester for Notes</h2>
+            <div class="selection-grid">
+                <div class="selection-card" data-page="notes-batch" data-sem="1st"><i class="fas fa-1"></i><h3>1st Semester</h3></div>
+                <div class="selection-card" data-page="notes-batch" data-sem="2nd"><i class="fas fa-2"></i><h3>2nd Semester</h3></div>
+                <div class="selection-card" data-page="notes-batch" data-sem="3rd"><i class="fas fa-3"></i><h3>3rd Semester</h3></div>
+                <div class="selection-card" data-page="notes-batch" data-sem="4th"><i class="fas fa-4"></i><h3>4th Semester</h3></div>
+                <div class="selection-card" data-page="notes-batch" data-sem="5th"><i class="fas fa-5"></i><h3>5th Semester</h3></div>
+                <div class="selection-card" data-page="notes-batch" data-sem="6th"><i class="fas fa-6"></i><h3>6th Semester</h3></div>
+            </div>
+        </div>
+
+        <!-- Batch Selection for Notes -->
+        <div class="page" id="notes-batch-page">
+            <a href="#" class="back-btn" data-page="notes"><i class="fas fa-arrow-left"></i> Back to Semesters</a>
+            <h2 class="section-title" id="notes-batch-title">Select Batch</h2>
+            <div class="batch-grid">
+                <div class="batch-card" data-page="notes-subjects" data-batch="2023"><h4>2023 Batch</h4></div>
+                <div class="batch-card" data-page="notes-subjects" data-batch="2022"><h4>2022 Batch</h4></div>
+                <div class="batch-card" data-page="notes-subjects" data-batch="2021"><h4>2021 Batch</h4></div>
+                <div class="batch-card" data-page="notes-subjects" data-batch="2020"><h4>2020 Batch</h4></div>
+            </div>
+        </div>
+
+        <!-- Placeholder for Subject Selection -->
+        <div class="page" id="notes-subjects-page">
+             <a href="#" class="back-btn" data-page="notes-batch"><i class="fas fa-arrow-left"></i> Back to Batches</a>
+            <h2 class="section-title" id="notes-subjects-title">Select Subject</h2>
+            <!-- Subject cards would be dynamically added here -->
+        </div>
+
+        <!-- Papers Section -->
+        <div class="page" id="papers-page">
+            <a href="#" class="back-btn" data-page="home"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <h2 class="section-title">Select Semester for Papers</h2>
+            <div class="selection-grid">
+                <div class="selection-card" data-page="papers-batch" data-sem="1st"><i class="fas fa-1"></i><h3>1st Semester</h3></div>
+                <div class="selection-card" data-page="papers-batch" data-sem="2nd"><i class="fas fa-2"></i><h3>2nd Semester</h3></div>
+                <div class="selection-card" data-page="papers-batch" data-sem="3rd"><i class="fas fa-3"></i><h3>3rd Semester</h3></div>
+                <div class="selection-card" data-page="papers-batch" data-sem="4th"><i class="fas fa-4"></i><h3>4th Semester</h3></div>
+                <div class="selection-card" data-page="papers-batch" data-sem="5th"><i class="fas fa-5"></i><h3>5th Semester</h3></div>
+                <div class="selection-card" data-page="papers-batch" data-sem="6th"><i class="fas fa-6"></i><h3>6th Semester</h3></div>
+            </div>
+        </div>
+        
+        <!-- Batch Selection for Papers -->
+        <div class="page" id="papers-batch-page">
+            <a href="#" class="back-btn" data-page="papers"><i class="fas fa-arrow-left"></i> Back to Semesters</a>
+            <h2 class="section-title" id="papers-batch-title">Select Batch</h2>
+             <div class="batch-grid">
+                <div class="batch-card" data-page="papers-list" data-batch="2023"><h4>2023 Batch</h4></div>
+                <div class="batch-card" data-page="papers-list" data-batch="2022"><h4>2022 Batch</h4></div>
+                <div class="batch-card" data-page="papers-list" data-batch="2021"><h4>2021 Batch</h4></div>
+                <div class="batch-card" data-page="papers-list" data-batch="2020"><h4>2020 Batch</h4></div>
+            </div>
+        </div>
+        
+        <!-- Papers List Page -->
+        <div class="page" id="papers-list-page">
+            <a href="#" class="back-btn" data-page="papers-batch"><i class="fas fa-arrow-left"></i> Back to Batches</a>
+            <h2 class="section-title" id="papers-list-title">Previous Papers</h2>
+            <div class="resource-list">
+                 <div class="resource-item">
+                    <div class="resource-header">
+                        <div class="resource-title">Education - 2023</div>
+                    </div>
+                    <p>Final Examination Paper</p>
+                    <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+                </div>
+                 <div class="resource-item">
+                    <div class="resource-header">
+                        <div class="resource-title">Mathematics - 2023</div>
+                    </div>
+                    <p>Final Examination Paper</p>
+                    <a href="#" class="download-btn"><i class="fas fa-download"></i> Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 GDC Sopore Student Portal. All rights reserved.</p>
+        <p>Designed for the students of GDC Sopore</p>
+        <p>Founder: Shafqat Ahmad Bhatt | Contact: <a href="tel:7780926365">7780926365</a> | Email: <a href="mailto:shafqatahmad499@gmail.com">shafqatahmad499@gmail.com</a></p>
+    </footer>
+
+    <script>
+        // JavaScript for Page Navigation and Interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            const allPageTriggers = document.querySelectorAll('[data-page]');
+            const pages = document.querySelectorAll('.page');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navMenu = document.getElementById('navMenu');
+
+            // Mobile menu toggle
+            mobileMenuBtn.addEventListener('click', () => navMenu.classList.toggle('active'));
+
+            allPageTriggers.forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    const targetPageId = this.getAttribute('data-page');
+                    const sem = this.getAttribute('data-sem');
+                    const batch = this.getAttribute('data-batch');
+
+                    // Store semester and batch info for later use
+                    if (sem) localStorage.setItem('currentSem', sem);
+                    if (batch) localStorage.setItem('currentBatch', batch);
+                    
+                    // Show the target page
+                    pages.forEach(page => {
+                        page.classList.toggle('active', page.id === `${targetPageId}-page`);
+                    });
+
+                    // Update titles
+                    updateDynamicTitles();
+
+                    // Update active nav link
+                    const mainPages = ['home', 'notes', 'papers'];
+                    if (mainPages.includes(targetPageId)) {
+                        navLinks.forEach(link => {
+                           link.classList.toggle('active', link.getAttribute('data-page') === targetPageId);
+                        });
+                    }
+
+                    // Close mobile menu on navigation
+                    navMenu.classList.remove('active');
+                    window.scrollTo(0, 0); // Scroll to top
+                });
+            });
+
+            function updateDynamicTitles() {
+                const currentSem = localStorage.getItem('currentSem');
+                const currentBatch = localStorage.getItem('currentBatch');
+
+                const notesBatchTitle = document.getElementById('notes-batch-title');
+                const papersBatchTitle = document.getElementById('papers-batch-title');
+                const notesSubjectsTitle = document.getElementById('notes-subjects-title');
+                const papersListTitle = document.getElementById('papers-list-title');
+
+                if (notesBatchTitle) notesBatchTitle.textContent = `${currentSem || ''} Semester - Select Batch`;
+                if (papersBatchTitle) papersBatchTitle.textContent = `${currentSem || ''} Semester - Select Batch`;
+                if (notesSubjectsTitle) notesSubjectsTitle.textContent = `${currentSem || ''} Sem - ${currentBatch || ''} Batch - Select Subject`;
+                if (papersListTitle) papersListTitle.textContent = `${currentSem || ''} Sem - ${currentBatch || ''} Batch - Previous Papers`;
+            }
+        });
+    </script>
+</body>
+</html>
+<div class="subject-card">
+    <h4>Education</h4>
+    <a href="https://res.cloudinary.com/df7yolrew/raw/upload/v1755240327/deepseek_html_20250815_68fe08_mt4cqq.html" class="download-btn"><i class="fas fa-download"></i> Download</a>
+</div>
+<div class="subject-card">
+    <h4>Education</h4>
+    <a href="#" class="download-btn" id="education-download-link"><i class="fas fa-download"></i> Download</a>
+</div>
